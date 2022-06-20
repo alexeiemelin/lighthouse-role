@@ -1,6 +1,5 @@
 ---
 # tasks file for lighthouse-role
-  tasks:
     - name: lighthouse | Copy from git
       git:
         repo: "{{ lighthouse_vcs }}"
